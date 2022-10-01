@@ -1,0 +1,131 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(200, 197, 197);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    position: relative;
+    background-color: #1867c0;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    height: 25vh;
+}
+
+.header h1 {
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.header h2 {
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.header figure {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    top: 120px;
+    /* Thank God for iluminating my mind */
+    right: calc(50% - 105px);
+}
+
+.header figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 90vw;
+    margin-top: 80px; 
+    justify-content: center;
+    grid-row-gap: 25px;
+}
+
+.curriculum-info {
+    width: 100%;
+    padding: 50px 5vw 50px 5vw;
+    background-color: white;
+    text-align: center;
+    border-radius: 25px;    
+}
+
+.curriculum-info ul, .curriculum-info ul li, .curriculum-info p {
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.curriculum-info h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #999;
+    padding-bottom: 20px;
+
+}
+
+.curriculum-info > h3 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.content > h3 {
+    font-size: 1.6rem;
+    padding: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.content img {
+    width: 45px;
+}
+
+.content.green { border: 2px solid #4CAF50; }
+.content.green h3 { background-color: #4CAF50; }
+
+.content.red { border: 2px solid #F44336; }
+.content.red h3 { background-color: #F44336; }
+
+.content.blue { border: 2px solid #2196f3; }
+.content.blue h3 { background-color: #2196f3; }
+
+.content.purple { border: 2px solid #9c27b0; }
+.content.purple h3 { background-color: #9c27b0; }
+
+.content.orange { border: 2px solid #ff9800; }
+.content.orange h3 { background-color: #ff9800; }
+
+.content.dark-green { border: 2px solid #1b5e20; }
+.content.dark-green h3 { background-color: #1b5e20; }
+
+.content.dark-red { border: 2px solid #b71c1c; }
+.content.dark-red h3 { background-color: #b71c1c; }
+
+.content.dark-blue { border: 2px solid #0d47a1; }
+.content.dark-blue h3 { background-color: #0d47a1; }
+
+.content.dark-purple { border: 2px solid #4a148c; }
+.content.dark-purple h3 { background-color: #4a148c; }
