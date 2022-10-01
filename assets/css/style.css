@@ -103,6 +103,11 @@ ul {
     width: 45px;
 }
 
+.content > a, .content > ul > li > a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
 .content.green { border: 2px solid #4CAF50; }
 .content.green h3 { background-color: #4CAF50; }
 
