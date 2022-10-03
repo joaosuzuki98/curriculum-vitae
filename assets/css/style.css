@@ -13,6 +13,10 @@ ul {
     list-style-type: none;
 }
 
+section {
+    margin-bottom: 25px;
+}
+
 .header {
     position: relative;
     background-color: #1867c0;
@@ -103,9 +107,10 @@ ul {
     width: 45px;
 }
 
-.content > a, .content > ul > li > a {
+.content > a, .content > ul > li > a, .content > a:visited, .content > ul > li > a:visited {
     font-size: 2rem;
     text-decoration: none;
+    color: blue;
 }
 
 .content.green { border: 2px solid #4CAF50; }
@@ -134,3 +139,32 @@ ul {
 
 .content.dark-purple { border: 2px solid #4a148c; }
 .content.dark-purple h3 { background-color: #4a148c; }
+
+@media screen and (max-height: 754px) {
+    .header {
+        margin-bottom: 15vh;
+    }
+
+    .header figure {
+        width: 160px;
+        right: calc(50% - 80px);
+    }
+}
+
+@media screen and (max-height: 546px) {
+    .header {
+        height: 20vh;
+    }
+    
+    .header > h2 {
+        display: none;
+    }
+
+    .header figure {
+        top: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+}
