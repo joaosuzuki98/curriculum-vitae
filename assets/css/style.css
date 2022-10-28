@@ -185,3 +185,23 @@ section {
     }
 
 }
+
+@media screen and (min-width: 1400px) {
+    .contents {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .content {
+        margin-bottom: 50px;
+    }
+
+    .content h3 {
+        font-size: 1.8rem;
+    }
+
+    .lg-width {
+        width: 30%;
+    }
+}
