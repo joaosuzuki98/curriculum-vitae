@@ -165,6 +165,19 @@ section {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 960px) { 
+    .grid-container {
+        grid-column-gap: 20px;
+        grid-template-columns: 45vw 45vw;
+        
+    }
+
+    #education {
+        height: 100%;
+    }
     
+    #skills {
+        grid-column: 1 / span 2;
+    }
+
 }
